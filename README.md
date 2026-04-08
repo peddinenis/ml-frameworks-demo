@@ -59,7 +59,6 @@ Used to build an interactive web application for real-time predictions using the
 - Displays predictions and probabilities instantly
 
 ## Project Structure
-```text
 ml-frameworks-demo/
 ├── app/
 │   └── streamlit_app.py
@@ -103,10 +102,13 @@ pip install pandas numpy scikit-learn matplotlib seaborn tensorflow torch torchv
     python src\plot_roc_curves.py
 
 ## Results
-Model	        Accuracy	Precision	Recall	F1	    ROC-AUC
-scikit-learn	0.8524	    0.7414	    0.5885	0.6562	0.9042
-TensorFlow	    0.8145	    0.5772	    0.8413	0.6847	0.9101
-PyTorch	        0.8045	    0.5593	    0.8631	0.6788	0.9114
+| Model | Accuracy | Precision | Recall | F1 | ROC-AUC |
+|------|----------|----------|--------|-----|---------|
+| scikit-learn | 0.8524 | 0.7414 | 0.5885 | 0.6562 | 0.9042 |
+| TensorFlow | 0.8145 | 0.5772 | 0.8413 | 0.6847 | 0.9101 |
+| PyTorch | 0.8045 | 0.5593 | 0.8631 | 0.6788 | 0.9114 |
+
+---
 
 ## Interactive App (Streamlit)
 
@@ -121,7 +123,6 @@ This project includes a Streamlit web application to demonstrate real-time predi
 
 ### Run the app
 
-```powershell
 streamlit run app\streamlit_app.py
 
 The app will open automatically in your browser.
